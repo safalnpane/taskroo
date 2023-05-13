@@ -10,5 +10,8 @@ superuser: migrate
 makemigrate:
 	./manage.py makemigrations ${app}
 
+app:
+	./manage.py startapp ${name}
+
 test:
 	pytest ${app}
