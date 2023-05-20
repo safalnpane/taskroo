@@ -16,6 +16,7 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     # Local
     'users',
+    'tasks',
     # Third-party
     'rest_framework',
     'rest_framework.authtoken',
